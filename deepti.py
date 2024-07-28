@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 # Title of the app
 st.title("Data Analysis and Visualization App")
 
+# Developer name
+st.markdown("**Developed by Deepti Alive**")
+
 # Upload CSV file
 st.sidebar.header("Upload your CSV file")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
